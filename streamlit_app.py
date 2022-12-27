@@ -21,9 +21,11 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-st.caption('This is a string that explains something above.')
-st.caption('A caption with _italics_ :blue[colors] and emojis :sunglasses:')
-st.image
+st.latex(r'''
+    a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
+    \sum_{k=0}^{n-1} ar^k =
+    a \left(\frac{1-r^{n}}{1-r}\right)
+    ''')
 #with st.echo(code_location='below'):
     #total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
     #num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
