@@ -18,7 +18,7 @@ import streamlit as st
 #st.write('hello')
 st.header('st.button')
 if st.button('say hello'):st.write('why hello')
- else: st.write('goodbby')
+ else: st.write('goodby')
 
 #with st.echo(code_location='below'):
     #total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
