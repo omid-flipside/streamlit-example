@@ -21,7 +21,7 @@ import streamlit as st
 st.header('chain')
 
 if st.button('Say hello'):
-     st.write('Why hello there')
+     st.write('hi')
 else:
      st.write('Goodbye')
 
