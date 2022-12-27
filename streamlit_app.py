@@ -2,7 +2,7 @@
 #import altair as alt
 #import math
 #import pandas as pd
-import streamlit as st
+#import streamlit as st
 
 #"""
 # Welcome to Streamlit!
@@ -16,9 +16,14 @@ import streamlit as st
 
 #"""
 #st.write('hello')
+import streamlit as st
+
 st.header('st.button')
-if st.button('say hello'):st.write('why hello')
- else: st.write('goodbye')
+
+if st.button('Say hello'):
+     st.write('Why hello there')
+else:
+     st.write('Goodbye')
 
 #with st.echo(code_location='below'):
     #total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
